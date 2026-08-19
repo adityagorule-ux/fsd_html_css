@@ -1,0 +1,147 @@
+/* ==========================================
+   TASK 1: APPLY BASIC PAGE STYLING
+   ========================================== */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4f8fb;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ==========================================
+   TASK 2: STYLE THE HEADER AND FOOTER
+   ========================================== */
+header, footer {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* ==========================================
+   TASK 3: DESIGN HORIZONTAL NAVIGATION BAR
+   ========================================== */
+nav {
+    background-color: #023e8a;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+/* ==========================================
+   TASK 4: CARD STYLING
+   ========================================== */
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ==========================================
+   TASK 5: STYLE LISTS
+   ========================================== */
+ol {
+    list-style-type: upper-roman;
+    text-align: left;
+    margin-left: 20px;
+}
+
+li {
+    margin: 10px 0;
+    color: #0077b6;
+    font-weight: bold;
+}
+
+dl {
+    background-color: #eaf6ff;
+    padding: 20px;
+    text-align: left;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+
+dt {
+    font-weight: bold;
+    color: #023e8a;
+}
+
+dd {
+    margin-left: 15px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+/* ==========================================
+   TASK 6: CREATE CONSISTENT LAYOUT FOR ALL PAGES
+   ========================================== */
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    flex: 1; /* Pushes footer to the bottom */
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #0077b6;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #0077b6;
+    color: white;
+}
+
+button {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #023e8a;
+}
+
+footer {
+    margin-top: auto;
+    font-size: 14px;
+}
